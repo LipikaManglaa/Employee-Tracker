@@ -20,7 +20,9 @@ CREATE TABLE role(
     PRIMARY KEY (id),
     FOREIGN KEY (department_id) REFERENCES department(id)
     ON DELETE SET NULL
-) -- employee table
+)
+ -- employee table
+
 CREATE TABLE employee(
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30) NOT NULL,

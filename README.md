@@ -1,10 +1,5 @@
 # Employee-Tracker
 
-# svg-generate
-
-https://drive.google.com/file/d/1OjaZDTuTORxCckNg2Z0X8ZW6ZtWyyKPB/view
-
-
 
 ## Description
 This project is based on command-line application  to manage a company's employee database . i have used package of Node Js,mysql12 and also install [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) for input form user.This is  for  business owner so that they can view and manage the departments, roles, and employees in their company SO THAT they can organize and plan their business. Theu can enter the employee name, salary, and department which they belong, They can save all information in database whenever they want, they can even edit the employee's title.

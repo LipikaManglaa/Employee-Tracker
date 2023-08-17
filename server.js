@@ -55,8 +55,8 @@ let result = () => {
             else if (result.activity === "Edit Employee") {
                 EditEmployess();
             }
-            else if (result.activity === "Add Employee") {
-                deleteEmployee();
+            else if (result.activity === "View Role") {
+                viewAllrole();
             }
              else if (result.activity === "Add Role") {
                 addRole();
@@ -98,8 +98,8 @@ let viewAllEmployess = () => {
 }
 //view for all role
 let viewAllrole = () => {
-    let query = "SELECT role .*,department.name as department FROM role INNER JOIN department ON department.id = role.department_id";
-
+    let query = "SELECT role .*,department.name  FROM role INNER JOIN department ON department.id = role.department_id";
+console.log(query)
     db.query(query, function (err, res) {
         console.log(res)
         if (err) throw err;
